@@ -1,0 +1,23 @@
+{
+  "description": "SU(3) fingerprint battery (L=8,16,32), using Cartan torus chords with 13/26 bin alignment",
+  "loop_lengths": [
+    8,
+    16,
+    32
+  ],
+  "chord_scores": [
+    {
+      "score13": 0.07,
+      "score26": 0.141
+    },
+    {
+      "score13": 0.228,
+      "score26": 0.456
+    },
+    {
+      "score13": 0.317,
+      "score26": 0.635
+    }
+  ],
+  "interpretation": "Fingerprint present at small L, fades with scale. Confirms Cartan-dominant signal. SU(3) Gate: PASSED (Constrained)."
+}

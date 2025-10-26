@@ -1,0 +1,27 @@
+
+digraph UFRF_TOE {
+  rankdir=LR;
+  Axioms [shape=box, label="Axioms (1–5)"];
+  Cycle [shape=box, label="13‑Position Cycle"];
+  REST  [shape=box, label="REST (E=B), √φ"];
+  Proj  [shape=box, label="Projection Law"];
+  EM    [shape=ellipse, label="EM Emergence"];
+  PPN   [shape=ellipse, label="PPN (γ, β)"];
+  Nuc   [shape=ellipse, label="Nuclear Shells"];
+  QM    [shape=ellipse, label="Schrödinger"];
+  FFT   [shape=ellipse, label="Fourier Connection"];
+  Pred  [shape=diamond, label="Predictions"];
+  Fals  [shape=diamond, label="Falsifiers"];
+
+  Axioms -> Cycle;
+  Axioms -> REST;
+  Axioms -> Proj;
+  Cycle  -> EM;
+  REST   -> EM;
+  EM     -> PPN;
+  Cycle  -> Nuc;
+  REST   -> QM;
+  EM     -> FFT;
+  {PPN Nuc QM FFT} -> Pred;
+  Pred -> Fals;
+}

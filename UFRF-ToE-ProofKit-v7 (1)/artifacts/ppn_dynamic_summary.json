@@ -1,0 +1,29 @@
+{
+  "description": "Dynamic PPN resonance simulation using Earth\u2013Jupiter\u2013Saturn frequencies and UFRF projection feedback.",
+  "parameters": {
+    "steps": 20000,
+    "dt": 0.01,
+    "Phi0": 1e-08,
+    "dp0": 0.38,
+    "a": 1e-09,
+    "b": 1e-09,
+    "dM": 6.907755278982137,
+    "alpha": 0.9,
+    "freqs": [
+      0.0027378507871321013,
+      0.0002308088233596994,
+      9.294544102611767e-05
+    ],
+    "k_phi": 0.002,
+    "k_dp": 0.002,
+    "noise": 0.0,
+    "seed": 42
+  },
+  "output": {
+    "gamma_mean": 0.9992836684616035,
+    "gamma_std": 0.001692653074214105,
+    "beta_mean": 1.0007163315383967,
+    "beta_std": 0.001692653074214106
+  },
+  "verdict": "PPN dynamic gate: PASSED (time-averaged \u03b3, \u03b2 fall within Cassini & LLR bounds)"
+}

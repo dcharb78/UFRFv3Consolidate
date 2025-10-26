@@ -1,0 +1,13 @@
+{
+  "principal_symbol_null_check": -3.999840006407851e-05,
+  "beta_coeff_qed_one_loop_n1": 0.2122065907891938,
+  "qhe_series_sample": [
+    "1/13",
+    "2/13",
+    "3/13",
+    "4/13",
+    "5/13",
+    "6/13"
+  ],
+  "eta_over_s_enhanced": 0.10122410746509215
+}

@@ -1,0 +1,102 @@
+{
+  "project": "UFRF-LoCuSS-Projection-v1",
+  "alpha_priors": {
+    "WL_OPT": {
+      "alpha_total": 0.3,
+      "alpha_E": 0.1,
+      "alpha_B": 0.29
+    },
+    "HSE_XR": {
+      "alpha_total": 0.7,
+      "alpha_E": 0.6,
+      "alpha_B": 0.3
+    },
+    "SZ_MM": {
+      "alpha_total": 0.5,
+      "alpha_E": 0.35,
+      "alpha_B": 0.35
+    }
+  },
+  "splits": [
+    {
+      "id": "LOTO_WL",
+      "train": [
+        "HSE_XR",
+        "SZ_MM"
+      ],
+      "holdout": [
+        "WL_OPT"
+      ],
+      "target": "ln(M_holdout) - ln(M_ref)",
+      "ref": "HSE_XR"
+    },
+    {
+      "id": "LOTO_HSE",
+      "train": [
+        "WL_OPT",
+        "SZ_MM"
+      ],
+      "holdout": [
+        "HSE_XR"
+      ],
+      "target": "ln(M_holdout) - ln(M_ref)",
+      "ref": "WL_OPT"
+    },
+    {
+      "id": "LOTO_SZ",
+      "train": [
+        "WL_OPT",
+        "HSE_XR"
+      ],
+      "holdout": [
+        "SZ_MM"
+      ],
+      "target": "ln(M_holdout) - ln(M_ref)",
+      "ref": "WL_OPT"
+    },
+    {
+      "id": "PAIRWISE_WL_HSE_train__predict_SZ",
+      "train_pairs": [
+        [
+          "WL_OPT",
+          "HSE_XR"
+        ]
+      ],
+      "holdout_pairs": [
+        [
+          "WL_OPT",
+          "SZ_MM"
+        ],
+        [
+          "HSE_XR",
+          "SZ_MM"
+        ]
+      ]
+    }
+  ],
+  "instrument_folds": {
+    "WL_OPT": {
+      "by_instrument": [
+        "Subaru",
+        "CFHT",
+        "HST"
+      ]
+    },
+    "HSE_XR": {
+      "by_instrument": [
+        "Chandra",
+        "XMM"
+      ]
+    },
+    "SZ_MM": {
+      "by_instrument": [
+        "Planck",
+        "Bolocam",
+        "SPT",
+        "ACT"
+      ]
+    }
+  },
+  "observable": "ln_mass",
+  "model_hint": "fit \u0394lnM_tech1,tech2 = dM * (\u03b11 - \u03b12) * S + \u03b5; keep dM fixed; learn S."
+}

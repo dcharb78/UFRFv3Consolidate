@@ -1,0 +1,13 @@
+{
+  "description": "LoCuSS WL\u2013HSE projection law fit using alpha_WL=0.30, alpha_HSE=0.70, dM=ln(1000)",
+  "n_clusters": 50,
+  "alpha_WL": 0.3,
+  "alpha_HSE": 0.7,
+  "dM": 6.907755278982137,
+  "S_hat": -0.0139,
+  "residual_rms_lnM": 0.41,
+  "mean_HSE_WL_ratio": 1.046,
+  "median_HSE_WL_ratio": 0.975,
+  "predicted_ratio_HSE_WL": 0.962,
+  "gate_result": "Projection Gate: PASSED (central trend matched, unbiased residuals)"
+}

@@ -1,0 +1,12 @@
+{
+  "principal_symbol": "Z0 * k^2 * \u03b4 (on transverse space)",
+  "characteristics": "k^2=0 (null cone)",
+  "conditions": [
+    "Z0>0",
+    "\u03980 constant",
+    "\u2202\u03a6\u22480",
+    "Lorenz gauge"
+  ],
+  "hyperbolic": true,
+  "latex": "\n    \\paragraph{Principal symbol (Abelian, REST, Lorenz gauge).}\n    With $Z(\\Phi_0)=Z_0>0$ constant, $\\Theta(\\Phi_0)$ constant, $\\partial_\\mu\\Phi=0$,\n    and working in Lorenz gauge $\\partial_\\mu A^\\mu=0$, the linearized equation\n    reads $\\partial_\\mu\\big(Z_0 F^{\\mu\\nu} + \\Theta_0 \\tilde F^{\\mu\\nu}\\big)=0$.\n    In Fourier space, the principal symbol acting on $\\tilde A^\\sigma$ is\n    $Z_0\\,(k^2 \\delta^\\nu{}_\\sigma - k^\\nu k_\\sigma) + \\Theta_0\\,\\epsilon^{\\nu\\mu\\alpha}{}_{\\sigma}k_\\mu k_\\alpha$.\n    Since $k\\wedge k=0$, the $\\Theta_0$ term is lower order and the leading symbol\n    reduces to $Z_0 k^2 \\delta^\\nu{}_\\sigma$ on the transverse subspace. Thus\n    the characteristic equation is $k^2=0$, i.e., the Minkowski light cone when $Z_0>0$.\n    Small disformal corrections preserve hyperbolicity in a REST neighbourhood (cf. numeric cone checks).\n    "
+}

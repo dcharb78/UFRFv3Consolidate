@@ -1,0 +1,1 @@
+Integral_0_2pi(sin t * cos t) ≈ 4.935e-12

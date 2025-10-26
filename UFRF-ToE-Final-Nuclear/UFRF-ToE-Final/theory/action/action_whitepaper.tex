@@ -1,0 +1,45 @@
+
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb}
+\title{Candidate UFRF Action (v1) and Euler--Lagrange Equations}
+\author{UFRF-ToE WG}
+\begin{document}
+\maketitle
+
+We posit a minimal action featuring an electromagnetic 2-form $F_{\mu\nu}$, a phase field $\Phi$ encoding the $13$-cycle, a spinor sector $\psi$, and an algebraic disformal emergent metric $g_{\mu\nu}[F,\Phi]$:
+\begin{align}
+S_{\text{UFRF}}=\int d^4x\,\sqrt{|g|}\,\Big[
+-\tfrac14 Z(\Phi) F_{\mu\nu}F^{\mu\nu}
+-\tfrac14 \Theta(\Phi) F_{\mu\nu}\tilde F^{\mu\nu}
++\tfrac12 \partial_\mu\Phi\,\partial^\mu\Phi
+- V_{13}(\Phi)
++ \bar\psi(i\gamma^\mu D_\mu - y\,\mathcal M(\Phi))\psi
+\Big]
+\\
++ \int d^4x\,\sqrt{|g|}\,\mathcal C_{\rm REST}(\Phi; I_1, I_2),
+\end{align}
+with EM invariants $I_1 = F_{\mu\nu}F^{\mu\nu}=2(B^2-E^2)$ and $I_2=F_{\mu\nu}\tilde F^{\mu\nu}=-4\,\mathbf E\cdot\mathbf B$. The $13$-phase potential is
+\begin{equation}
+V_{13}(\Phi)=\Lambda\big(1-\cos(13\,\Phi/f)\big)+\lambda_2\big(1-\cos(26\,\Phi/f)\big),
+\end{equation}
+and a soft REST constraint
+\begin{equation}
+\mathcal C_{\rm REST} = -\mu(\Phi)\,(E^2-B^2)^2 - \nu(\Phi)\,\mathbf E\!\cdot\!\mathbf B.
+\end{equation}
+A disformal emergent metric is used
+\begin{equation}
+g_{\mu\nu}=\eta_{\mu\nu}+a(\Phi)\,\eta_{\mu\nu} I_1 + b(\Phi)F_\mu{}^{\alpha} F_{\nu\alpha} + c(\Phi)\,\partial_\mu\Phi\,\partial_\nu\Phi.
+\end{equation}
+
+\section*{Euler--Lagrange equations (sketch)}
+Varying $A_\mu$ gives modified Maxwell equations with axion-like $\Theta'(\Phi)\partial_\mu\Phi\,\tilde F^{\mu\nu}$ source and REST-induced nonlinearities. Varying $\Phi$ yields
+\begin{equation}
+\Box\Phi + V_{13}'(\Phi) + \tfrac14 Z'(\Phi)F^2 + \tfrac14 \Theta'(\Phi)F\tilde F - \partial_\Phi \mathcal C_{\rm REST} + \cdots = 0,
+\end{equation}
+where primes denote $\partial/\partial\Phi$ and dots collect disformal terms.
+Consistency with Lorentz and $U(1)$ gauge symmetry follows from scalar construction and minimal coupling.
+
+\section*{Limits}
+For $Z\!\to\!1$, $\Theta\!\to\!0$, $g\!\to\!\eta$, $\mu,\nu\!\to\!0$, $\Phi$ frozen, we recover source-free Maxwell; for constant $\mathcal M(\Phi_0)$ we recover free Dirac. Non-abelian extension promotes $A_\mu\to A_\mu^a T^a$. The weak-field coarse‑grained metric reproduces linearized Einstein equations under suitable $a,b,c$.
+
+\end{document}

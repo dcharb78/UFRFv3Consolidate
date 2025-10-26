@@ -1,0 +1,22 @@
+{
+  "created": "2025-10-22",
+  "expected_runs": [
+    {
+      "name": "nuclear_magic_numbers",
+      "script": "validations/nuclear_magic_numbers/validation.py"
+    },
+    {
+      "name": "beta_function",
+      "script": "validations/beta_function/beta_from_ufrf_concurrent.py"
+    },
+    {
+      "name": "ppn_parameters",
+      "script": "validations/ppn_parameters/ppn_complete_derivation.py"
+    }
+  ],
+  "artifacts": [
+    "logs",
+    "plots",
+    "json"
+  ]
+}

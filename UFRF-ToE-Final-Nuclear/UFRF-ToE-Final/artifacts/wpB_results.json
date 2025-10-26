@@ -1,0 +1,12 @@
+{
+  "rms_on_shell": 0.0,
+  "rms_off_shell": 0.2005010255323736,
+  "gauge_invariance": {
+    "max_abs_diff_E": 5.655198531684391e-15,
+    "max_abs_diff_B": 0.0
+  },
+  "scalar_mass": {
+    "m2": 304.20000000000005,
+    "m": 17.441330224498362
+  }
+}
