@@ -530,3 +530,8 @@ This geometric framework unifies:
 - Matter and consciousness
 - Science and spirituality
 All as different views of one geometry.
+
+---
+
+Prev: [04-ufrf-mathematical-framework.md](04-ufrf-mathematical-framework.md)
+Next: [06-ufrf-integration-summary.md](06-ufrf-integration-summary.md)

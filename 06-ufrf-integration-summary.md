@@ -326,3 +326,8 @@ All operating together, creating the appearance of complexity from underlying ge
 ---
 
 *"Reality is the perpetual dance of E×B fields creating each other through geometric necessity, observed from infinite perspectives, each seeing their own projection of the one underlying pattern."*
+
+---
+
+Prev: [05-ufrf-geometry-scales.md](05-ufrf-geometry-scales.md)
+Next: [07-ufrf-cross-domain-validation.md](07-ufrf-cross-domain-validation.md)

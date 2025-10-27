@@ -483,3 +483,8 @@ UFRF makes specific, testable predictions derived from geometric first principle
 5. **Testable** - With current technology
 
 The diversity of predictions, from nuclear physics to consciousness, all derived from the same geometric axioms, provides multiple independent tests. The framework has already shown remarkable validation in explaining existing data through the projection law. Future experimental tests of novel predictions will further validate or falsify the geometric framework.
+
+---
+
+Prev: [07-ufrf-cross-domain-validation.md](07-ufrf-cross-domain-validation.md)
+Next: [09-ufrf-objection-handling.md](09-ufrf-objection-handling.md)

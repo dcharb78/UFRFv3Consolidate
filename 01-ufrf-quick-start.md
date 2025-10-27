@@ -353,3 +353,7 @@ Whether the E×B interpretation is ultimate truth or there's something deeper, t
 ---
 
 *"Reality is far simpler than it appears - one process creating infinite diversity through geometric relationships observed from different perspectives."* - UFRF Core Principle
+
+---
+
+Next: [02-ufrf-core-theory.md](02-ufrf-core-theory.md)

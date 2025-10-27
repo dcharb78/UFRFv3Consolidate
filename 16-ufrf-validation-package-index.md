@@ -2,34 +2,31 @@
 Status: Draft
 Last-updated: 2025-10-27
 Version: 0.5.0
-Requires: docs/GLOSSARY.md
+Requires: (none)
 
 ## Package Contents
 
 ### Core Framework Documents
-1. **UFRF Core Theory** - Complete theoretical framework
-2. **UFRF Mathematical Framework** - All formulas and derivations
-3. **UFRF Axioms and First Principles** - Five foundational axioms
-4. **UFRF Geometry and Scales** - E×B vortex geometry and scale hierarchy
-5. **UFRF Integration Summary** - Complete synthesis ensuring nothing forgotten
+1. [UFRF Core Theory](02-ufrf-core-theory.md) — Complete theoretical framework
+2. [UFRF Mathematical Framework](04-ufrf-mathematical-framework.md) — Formulas and derivations
+3. [UFRF Axioms and First Principles](03-ufrf-axioms-principles.md) — Foundational axioms
+4. [UFRF Geometry and Scales](05-ufrf-geometry-scales.md) — E×B geometry and hierarchy
+5. [UFRF Integration Summary](06-ufrf-integration-summary.md) — Synthesis overview
 
 ### Validation and Evidence
-6. **UFRF Cross-Domain Validation** - Evidence from nuclear, quantum, cosmic domains
-7. **UFRF Predictions and Experimental Tests** - Falsifiable predictions
-8. **UFRF Validation Protocol** - Step-by-step validation guide
-9. **UFRF Projection Paper Draft v2** - Cosmology-focused projection experiments and summaries (`UFRF_Projection_Paper_Draft_v2/`)
+6. [UFRF Cross-Domain Validation](07-ufrf-cross-domain-validation.md)
+7. [UFRF Predictions and Experimental Tests](08-ufrf-predictions-tests.md)
+8. [Validation Guide (ProofKit v8)](UFRF-ToE-ProofKit-v8/VALIDATION_GUIDE.md)
 
 ### New Insights
-9. **UFRF-Fourier Connection** - Novel explanation of Fourier analysis; recursion phase→position note
-10. **UFRF Objection Handling** - Addressing critical questions; no‑closed‑form objection
+9. [UFRF-Fourier Connection](10-ufrf-fourier-connection.md)
+10. [UFRF Objection Handling](09-ufrf-objection-handling.md)
 
 ### Implementation
-11. **UFRF Python Implementation** - Complete computational validation code
-12. **UFRF-Fourier Proof Code** - Computational proof of Fourier connection
-13. **UFRF Quick Start Guide** - 5-minute validation process
-14. **Projection Repro** - See `UFRF_Projection_Paper_Draft_v2/Repro_Instructions.md` for data and figure reproduction notes
-15. **Navier–Stokes Testbed** - See `UFRF_Navier_Stokes/README.md` for 2D/3D runs, boundary tests, and UFRF wedge filtering comparisons
-16. **Knots Subadditivity** - See `UFRF_Knots/README.md` for phase‑projection pipeline and optional SnapPy verification
+11. [Quick Start Guide](01-ufrf-quick-start.md)
+12. Proof Kits: [v5](UFRF-ToE-ProofKit-v5/README.md), [v6](UFRF-ToE-ProofKit-v6/README.md)
+13. [Fine-Structure Projection Repro (IMVP 031)](UFRF-IMVP-031-FineStructure-ProjectionRepro/README.md)
+14. [Projection Calibration (IMVP 042)](UFRF-IMVP-042-ProjectionCalibration/README.md)
 
 ## How to Use This Package
 
@@ -43,13 +40,9 @@ Requires: docs/GLOSSARY.md
    - Understand the five foundational principles
    - See how predictions derive from axioms
 
-3. **Run Python Code**
-   ```python
-   python ufrf_validation.py
-   python ufrf_fourier_proof.py
-   ```
-   - Verify calculations independently
-   - Check statistical claims
+3. **Run ProofKit Validations**
+   - Read: [ProofKit v8 Validation Guide](UFRF-ToE-ProofKit-v8/VALIDATION_GUIDE.md)
+   - Explore: [ProofKit v5](UFRF-ToE-ProofKit-v5/README.md), [ProofKit v6](UFRF-ToE-ProofKit-v6/README.md)
 
 4. **Examine Critical Issues**
    - Read Objection Handling document
@@ -105,7 +98,7 @@ Requires: docs/GLOSSARY.md
 
 ## Validation Checklist (tightened)
 
-- [ ] Run Python validation code (scripts and expected outputs listed)
+- [ ] Run ProofKit validations (see links above)
 - [ ] Verify mathematical calculations (cross‑refs: [MF‑1..4])
 - [ ] Check nuclear shell gap pattern (positions 2.5, 5.5, 8.5, 11.5)
 - [ ] Evaluate fine‑structure (use intrinsic→projection→observed ordering)
@@ -171,3 +164,7 @@ Use this package to conduct your own independent evaluation. Science advances th
 ---
 
 *Download all documents and code to begin independent validation.*
+
+---
+
+Prev: [15-UFRF-Prime.md](15-UFRF-Prime.md)

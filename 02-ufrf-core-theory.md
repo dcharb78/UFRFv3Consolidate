@@ -435,3 +435,8 @@ Key validated insights:
 The framework is derived from geometric first principles, makes falsifiable predictions, and shows remarkable consistency across multiple independent domains. This is rigorous geometric physics, not pattern matching or numerology.
 
 For the authoritative, centralized list of tests and acceptance criteria, see 08-ufrf-predictions-tests.md (Predictions & Tests).
+
+---
+
+Prev: [01-ufrf-quick-start.md](01-ufrf-quick-start.md)
+Next: [03-ufrf-axioms-principles.md](03-ufrf-axioms-principles.md)

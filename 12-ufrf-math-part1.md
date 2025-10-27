@@ -322,3 +322,8 @@ P ≠ NP because:
 - Some positions (NP) require non-polynomial navigation
 - Cannot always reverse engineer the path (one-way geometric transformations)
 - Like trying to uncombing interference patterns
+
+---
+
+Prev: [11-ufrf-math-appendix.md](11-ufrf-math-appendix.md)
+Next: [13-ufrf-math-part2.md](13-ufrf-math-part2.md)

@@ -210,3 +210,8 @@ If negative numbers represent opposite E×B spin:
    - Neural networks navigate high-dimensional spin spaces
    - Learning: Finding efficient paths through E×B space
    - Consciousness emergence at sufficient navigation complexity
+
+---
+
+Prev: [12-ufrf-math-part1.md](12-ufrf-math-part1.md)
+Next: [14-ufrf-math-part3.md](14-ufrf-math-part3.md)

@@ -634,3 +634,8 @@ Where r = 10 for major scales
 ## Conclusion
 
 This mathematical framework demonstrates that UFRF's predictions emerge from geometric necessity rather than arbitrary parameters. The mathematics is internally consistent, scale-invariant through ratios, and produces testable predictions validated across multiple domains with high statistical significance.
+
+---
+
+Prev: [03-ufrf-axioms-principles.md](03-ufrf-axioms-principles.md)
+Next: [05-ufrf-geometry-scales.md](05-ufrf-geometry-scales.md)

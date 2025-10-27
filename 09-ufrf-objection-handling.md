@@ -212,3 +212,8 @@ UFRF presents a coherent geometric framework derived from clear axioms. The cros
 The "discrepancies" between intrinsic and measured values VALIDATE the projection law rather than challenging it. This is sophisticated physics, not pattern matching.
 
 Science progresses by testing falsifiable claims. UFRF provides many such claims, derived from consistent geometric principles. The framework deserves rigorous experimental testing of its novel predictions.
+
+---
+
+Prev: [08-ufrf-predictions-tests.md](08-ufrf-predictions-tests.md)
+Next: [10-ufrf-fourier-connection.md](10-ufrf-fourier-connection.md)

@@ -299,3 +299,8 @@ These five axioms provide the complete foundation for UFRF. From them, all other
 - Practically applicable
 
 The axioms reveal that reality emerges from geometric necessity - one process creating infinite diversity through geometric relationships observed from different perspectives. This is not pattern matching or numerology, but rigorous geometric physics derived from first principles.
+
+---
+
+Prev: [02-ufrf-core-theory.md](02-ufrf-core-theory.md)
+Next: [04-ufrf-mathematical-framework.md](04-ufrf-mathematical-framework.md)
